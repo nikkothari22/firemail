@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:emulator": "firebase emulators:start --import=test_data --export-on-exit"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.9",
